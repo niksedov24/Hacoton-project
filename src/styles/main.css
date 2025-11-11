@@ -1,0 +1,35 @@
+@import url(./blocks/header.css);
+@import url(./blocks/statistics.css);
+@import url(./blocks/history.css);
+@import url(./blocks/volunteering.css);
+@import url(./blocks/traditions.css);
+@import url(./blocks/grove.css);
+@import url(./blocks/partners.css);
+@font-face {
+  font-family: Montserrat;
+  src: url(/src/fonts/Montserrat-Italic-VariableFont_wght.ttf);
+}
+
+body {
+  font-family: Montserrat;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1310px;
+}
+
+.btn {
+  padding: 10px;
+  width: 300px;
+  height: 60px;
+  background-color: #8db124;
+  border-radius: 20px;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #8db124;
+  transition: all 0.5s;
+}

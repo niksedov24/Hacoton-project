@@ -1,0 +1,25 @@
+.partners {
+  margin-bottom: 120px;
+}
+
+.partners__title {
+  font-size: 40px;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  margin-bottom: 60px;
+}
+
+.partners-span {
+  font-weight: 700;
+  font-size: 30px;
+  letter-spacing: 0.1em;
+  color: #000;
+}
+
+.partners-span-other {
+  color: #84a625;
+}
+
+.image__swiper-slide {
+  text-align: center;
+}

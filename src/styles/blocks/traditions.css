@@ -1,0 +1,58 @@
+.traditions {
+  margin-bottom: 120px;
+}
+
+.traditions__title {
+  font-weight: 700;
+  font-size: 40px;
+  letter-spacing: 0.1em;
+  color: #3a3a3a;
+  margin-bottom: 60px;
+}
+
+.traditions__span {
+  color: #8db124;
+}
+
+.traditions__span-other {
+  text-decoration: underline;
+}
+
+.traditions-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 650px;
+  background-color: #39382f;
+  padding: 30px;
+  border-radius: 10px;
+  gap: 35px;
+}
+
+.traditions__info {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  gap: 45px;
+}
+
+.traditions__info-title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 200%;
+  color: #fff;
+  width: 750px;
+}
+
+.traditions__p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 200%;
+  color: #fff;
+  width: 750px;
+}
+
+.traditions__btn {
+  width: 750px !important;
+  font-weight: 600;
+}

@@ -1,10 +1,245 @@
 <!DOCTYPE html>
 <html lang="en">
-  <link rel="stylesheet" href="../src/styles/main.css" />
+  <link rel="stylesheet" href="/src/styles/reset.css" />
+  <link rel="stylesheet" href="/src/styles/main.css" />
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+/>
+
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <header id="home" class="header">
+      <div class="header__top">
+        <div class="container">
+          <div class="header__top-row">
+            <div class="header__logo">
+              <a href="#"
+                ><img
+                  class="header__logo-img"
+                  src="/src/images/logo.svg"
+                  alt="logo"
+              /></a>
+              <h2 class="header__logo-text">ДеревьЯ</h2>
+            </div>
+            <div class="header__nav">
+              <button id="burgerBtn" class="header__nav-btn">
+                <img src="/src/images/menu.svg" alt="" />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="header__hero">
+          <h1 class="header__hero-text">
+            Лес живёт — живёт Россия.<br />Эко-мероприятие по высадке деревьев.
+          </h1>
+          <button class="btn header__hero-btn">Стать участником</button>
+        </div>
+      </div>
+    </header>
+
+
+    <nav class="mobile-nav" id="mobileNav">
+        <button class="close-btn" id="closeBtn">X</button>
+        <a href="#home">Главная</a>
+        <a href="#statistics">Для компаний</a>
+        <a href="#history">Истории / Кейсы</a>
+        <a href="#grove">Роща славы</a>
+        <a href="#">Контакты</a>
+    </nav>
+
+    <div class="overlay" id="overlay"></div>
+
+    <main>
+      <section id="statistics" class="statistics">
+        <div class="container">
+          <div class="statistics-wrapper">
+            <div class="statistics__info">
+              <h2 class="statistics__info-title">
+                <span class="statistics-title-span">Статистика</span><br />
+                Лесовосстановления
+              </h2>
+              <div class="statistics__info-numbers">
+                <p>
+                  <span class="statistics-numbers-span">2250+</span>
+                  <br />
+                  Экологических проектов
+                </p>
+                <p>
+                  <span class="statistics-numbers-span">67 398 859+</span>
+                  <br />
+                  Деревьев посажено
+                </p>
+              </div>
+              <p class="statistics__info-description"">
+                Ежегодно в России гибнут миллионы гектаров леса от пожаров и
+                вырубок. Мы восстанавливаем его, но важно делать это быстрее.
+                Наша цель — высадить 70 000 000 деревьев к 2025 году. Следи за
+                прогрессом и стань частью команды, которая меняет карту страны к
+                лучшему!
+              </p>
+              <p class="statistics__info-important">
+                *Важно! <br />
+                Кликая «нравится», мы создаем видимость заботы. Но эта видимость
+                не поглощает углекислый газ, не останавливает эрозию почв и не
+                дает дом животным.
+              </p>
+            </div>
+            <div class="statistics__img">
+              <img src="/src/images/statistics-img.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="history" class="history">
+        <div class="container">
+            <h2 class="history__title">Истории посадок</h2>
+            <div class="history__row">
+                <div class="history__item">
+                    <img class="history__item-img" src="/src/images/history-item.png" alt="history-img">
+                    <h2 class="history__item-title">Компания «Вектор» заложила «Лес Победы»</h2>
+                    <p class="history__p">Локация: Ленинградская область,<br> Всеволожский район</p>
+                    <p class="history__p">Дата: 15 мая 2024 г.</p>
+                    <p class="history__p">Ключевой результат (крупно): +5 000 деревьев</p>
+                    <p class="history__p-description">История: «Более 100 сотрудников компании «Вектор» провели день на природе, чтобы создать новый смешанный лес. Несмотря на дождь, было посажено 5000 саженцев сосны. </p>
+                </div>
+                <div class="history__item">
+                    <img class="history__item-img" src="/src/images/history-item.png" alt="history-img">
+                    <h2 class="history__item-title">Компания «Вектор» заложила «Лес Победы»</h2>
+                    <p class="history__p">Локация: Ленинградская область,<br> Всеволожский район</p>
+                    <p class="history__p">Дата: 15 мая 2024 г.</p>
+                    <p class="history__p">Ключевой результат (крупно): +5 000 деревьев</p>
+                    <p class="history__p-description">История: «Более 100 сотрудников компании «Вектор» провели день на природе, чтобы создать новый смешанный лес. Несмотря на дождь, было посажено 5000 саженцев сосны. </p>
+                </div>
+                <div class="history__item">
+                    <img class="history__item-img" src="/src/images/history-item.png" alt="history-img">
+                    <h2 class="history__item-title">Компания «Вектор» заложила «Лес Победы»</h2>
+                    <p class="history__p">Локация: Ленинградская область,<br> Всеволожский район</p>
+                    <p class="history__p">Дата: 15 мая 2024 г.</p>
+                    <p class="history__p">Ключевой результат (крупно): +5 000 деревьев</p>
+                    <p class="history__p-description">История: «Более 100 сотрудников компании «Вектор» провели день на природе, чтобы создать новый смешанный лес. Несмотря на дождь, было посажено 5000 саженцев сосны. </p>
+                </div>
+                <div class="history__item">
+                    <img class="history__item-img" src="/src/images/history-item.png" alt="history-img">
+                    <h2 class="history__item-title">Компания «Вектор» заложила «Лес Победы»</h2>
+                    <p class="history__p">Локация: Ленинградская область,<br> Всеволожский район</p>
+                    <p class="history__p">Дата: 15 мая 2024 г.</p>
+                    <p class="history__p">Ключевой результат (крупно): +5 000 деревьев</p>
+                    <p class="history__p-description">История: «Более 100 сотрудников компании «Вектор» провели день на природе, чтобы создать новый смешанный лес. Несмотря на дождь, было посажено 5000 саженцев сосны. </p>
+                </div>
+                <div class="history__item">
+                    <img class="history__item-img" src="/src/images/history-item.png" alt="history-img">
+                    <h2 class="history__item-title">Компания «Вектор» заложила «Лес Победы»</h2>
+                    <p class="history__p">Локация: Ленинградская область,<br> Всеволожский район</p>
+                    <p class="history__p">Дата: 15 мая 2024 г.</p>
+                    <p class="history__p">Ключевой результат (крупно): +5 000 деревьев</p>
+                    <p class="history__p-description">История: Телеканал «Эко-Жизнь» подготовил репортаж о нашем масштабном лесовосстановительном мероприятии. </p>
+                </div>
+                <div class="history__item">
+                    <img class="history__item-img" src="/src/images/history-item.png" alt="history-img">
+                    <h2 class="history__item-title">Компания «Вектор» заложила «Лес Победы»</h2>
+                    <p class="history__p">Локация: Ленинградская область,<br> Всеволожский район</p>
+                    <p class="history__p">Дата: 15 мая 2024 г.</p>
+                    <p class="history__p">Ключевой результат (крупно): +5 000 деревьев</p>
+                    <p class="history__p-description">История: «Более 100 сотрудников компании «Вектор» провели день на природе, чтобы создать новый смешанный лес. Несмотря на дождь, было посажено 5000 саженцев сосны. </p>
+                </div>
+            </div>
+        </div>
+      </section>
+      <section id="volunteering" class="volunteering">
+        <div class="container">
+            <h2 class="volunteering__title">Посади <span class="volunteering__span">дерево</span> — стань <span class="volunteering__span-other">мужчиной</span></h2>
+            <div class="volunteering-wrapper">
+                <div class="volunteering__info">
+                    <h2 class="volunteering__info-title">Посади дерево. Стань мужчиной</h2>
+                    <p class="volunteering__p">Мужчина — это не про «бороду отрастил». Это про ответственность.Один мальчик сажает одно дерево — и в этот момент у него появляется что-то своё: живое, растущее, зависимое от него.Раз в год мы проводим ритуал посвящения в мужчины.Отец и сын выходят на землю, берут в руки лопаты и сажают дерево.Не в теории, не в «когда-нибудь», а здесь и сейчас.</p>
+                    <button class="btn volunteering__btn">Записаться на посвящение</button>
+                    <p class="volunteering__p">5 000 ₽ — вклад в лес и в характер ребёнка</p>
+                </div>
+                <div class="volunteering__img">
+                    <img src="../src/images/volanturing.png" alt="">
+                </div>
+            </div>
+        </div>
+      </section>
+            <section id="traditions" class="traditions">
+        <div class="container">
+            <h2 class="traditions__title">Добрая традиция, хорошая семья.</span></h2>
+            <div class="traditions-wrapper">
+                <div class="traditions__info">
+                    <h2 class="traditions__info-title">Добрая традиция, хорошая семья</h2>
+                    <p class="traditions__p">Свадьба заканчивается, фото блекнут, торт съели и забыли. Но если в день росписи вы сажаете своё дерево — память становится живой. Каждая семья после ЗАГСа может поехать не в ТЦ, а на свою первую совместную посадку. Дерево растёт вместе с вами: переживает ветра, морозы, засуху. Как и семья: главное — не бросать, ухаживать и возвращаться.</p>
+                    <button class="btn traditions__btn">Посадить семейное дерево</button>
+                    <p class="traditions__p">5 000 ₽ — ваша традиция, ваш лес, ваш след</p>
+                </div>
+                <div class="traditions__img">
+                    <img src="../src/images/traditions.png" alt="">
+                </div>
+            </div>
+        </div>
+      </section>
+            <section id="grove" class="grove">
+        <div class="container">
+            <h2 class="grove__title">«Роща славы» для участников СВО</span></h2>
+            <div class="grove-wrapper">
+                <div class="grove__info">
+                    <h2 class="grove__info-title">Роща славы. Дерево, которое держит память</h2>
+                    <p class="grove__p">Есть вещи, которые словами не лечатся. Когда отец на фронте. Когда его уже нет. Когда ребёнку нужно во что-то упереться, кроме пустоты. Мы создаём Рощу славы — живой мемориал, где дети с мамами сажают деревья в честь своих защитников. У каждого дерева — имя. У каждой семьи — место, куда можно приходить, обнимать ствол и говорить то, что не сказано. Дерево растёт. Так же, как растёт ребёнок. И каждый раз, когда он смотрит на крону, он знает: «Папа был. Папа есть в этой земле. И я продолжаю».</p>
+                    <button class="btn grove__btn">Посадить дерево в Роще славы</button>
+                    
+                </div>
+                <div class="grove__img">
+                    <img src="../src/images/grove.png" alt="">
+                </div>
+            </div>
+        </div>
+      </section>
+      <section class="partners">
+        <div class="container">
+            <h2 class="partners__title"> <span class="partners-span">Партнёры</span><br>Экологического сервиса <span class="partners-span-other">“ДеревьЯ”</span> </h2>
+        </div>
+        <div class="swiper">
+            <div class="image__swiper-wrapper swiper-wrapper">
+                <div class="image__swiper-slide swiper-slide">
+                    <div class="">
+                        <img src="../src/images/EmailRussia.png" alt="">
+                    </div>
+                </div>
+                <div class="image__swiper-slide swiper-slide">
+                    <div class="">
+                        <img src="../src/images/GazFond.png" alt="">
+                    </div>
+                </div>
+                <div class="image__swiper-slide swiper-slide">
+                    <div class="">
+                        <img src="../src/images/Lukoil.png" alt="">
+                    </div>
+                </div>
+                 <div class="image__swiper-slide swiper-slide">
+                    <div class="">
+                        <img src="../src/images/ecopoing.png" alt="">
+                    </div>
+                </div>
+                 <div class="image__swiper-slide swiper-slide">
+                    <div class="">
+                        <img src="../src/images/psb.png" alt="">
+                    </div>
+                </div>
+               
+               
+            </div>
+        </div>
+      </section>
+    </main> 
+    <script src="../src/scripts/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="../src/scripts/modules/slider.js"></script>
+  </body>
 </html>
