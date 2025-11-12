@@ -9,7 +9,7 @@
 @import url(./blocks/auth.css);
 @font-face {
   font-family: Montserrat;
-  src: url(/src/fonts/Montserrat-Italic-VariableFont_wght.ttf);
+  src: url(/fonts/Montserrat-Italic-VariableFont_wght.ttf);
 }
 
 body {
