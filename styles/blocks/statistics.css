@@ -76,3 +76,42 @@
     align-items: center;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .statistics {
+    margin-bottom: 60px;
+    margin-top: 60px;
+  }
+  .statistics__info-title {
+    font-size: 16px;
+  }
+
+  .statistics__info-numbers {
+    font-size: 12px;
+  }
+
+  .statistics-numbers-span {
+    font-size: 14px;
+  }
+  .statistics__info-description {
+    font-size: 12px;
+    width: 300px;
+    height: 120px;
+  }
+
+  .statistics__info-important {
+    font-size: 12px;
+    width: 300px;
+    padding: 0;
+  }
+
+  .statistics__info {
+    gap: 15px;
+  }
+  .statistics-title-span {
+    font-size: 16px;
+  }
+  .statistics__info {
+    align-items: center;
+  }
+}

@@ -60,3 +60,18 @@
     text-align: center;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .partners {
+    margin-bottom: 60px;
+  }
+  .partners__title {
+    font-size: 12px;
+  }
+  .partners-span {
+    font-size: 12px;
+  }
+  .card {
+    flex: 0 0 10em;
+  }
+}

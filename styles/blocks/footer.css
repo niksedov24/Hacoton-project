@@ -184,3 +184,35 @@
     gap: 30px;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .footer__p {
+    font-size: 12px;
+  }
+
+  .footer__item {
+    font-size: 12px !important;
+  }
+  .footer__item-location {
+    font-size: 12px;
+    width: 300px;
+    padding-left: 25px;
+  }
+
+  .footer__item-location::before {
+    width: 15px;
+    height: 15px;
+  }
+
+  .footer__item-email::before {
+    width: 15px;
+    height: 15px;
+  }
+  .footer__item-number::before {
+    width: 15px;
+    height: 15px;
+  }
+  .footer__subscribe {
+    flex-direction: column;
+  }
+}
