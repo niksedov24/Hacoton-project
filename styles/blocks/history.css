@@ -87,4 +87,7 @@
   .history__item {
     align-items: center;
   }
+  .mobile-version {
+    display: block !important;
+  }
 }
