@@ -151,3 +151,13 @@
     padding: 0px !important;
   }
 }
+
+@media screen and (max-width: 410px) {
+  .grove__info-title {
+    font-size: 12px;
+  }
+  .grove__p {
+    font-size: 8px;
+    padding: 0 250px;
+  }
+}

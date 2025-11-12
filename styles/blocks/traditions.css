@@ -138,3 +138,13 @@
     padding: 0px !important;
   }
 }
+
+@media screen and (max-width: 410px) {
+  .traditions__info-title {
+    font-size: 12px;
+  }
+  .traditions__p {
+    font-size: 8px;
+    padding: 0 250px;
+  }
+}
