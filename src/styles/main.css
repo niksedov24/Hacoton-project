@@ -5,6 +5,8 @@
 @import url(./blocks/traditions.css);
 @import url(./blocks/grove.css);
 @import url(./blocks/partners.css);
+@import url(./blocks/footer.css);
+@import url(./blocks/auth.css);
 @font-face {
   font-family: Montserrat;
   src: url(/src/fonts/Montserrat-Italic-VariableFont_wght.ttf);
