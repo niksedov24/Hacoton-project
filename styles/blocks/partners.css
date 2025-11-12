@@ -20,6 +20,43 @@
   color: #84a625;
 }
 
-.image__swiper-slide {
+.carousel {
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  overflow-x: auto;
+}
+
+.carousel::-webkit-scrollbar {
+  display: none;
+}
+
+.card {
+  flex: 0 0 25em;
   text-align: center;
+  align-content: center;
+}
+
+.group {
+  display: flex;
+  align-items: center;
+  justify-content: content;
+  gap: 1em;
+  animation: spin 6s infinite linear;
+  padding-right: 1em;
+}
+
+@keyframes spin {
+  from {
+    translate: 0;
+  }
+  to {
+    translate: -100%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .partners__title {
+    text-align: center;
+  }
 }

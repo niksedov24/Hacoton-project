@@ -50,3 +50,41 @@
   width: 362px;
   height: 260px;
 }
+
+.yt-frame {
+  max-width: 800px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.video-container {
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  border-radius: 12px 12px 0 0;
+}
+
+.mobile-version {
+  display: none !important;
+}
+
+@media screen and (max-width: 1200px) {
+  .history__row {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 100px;
+  }
+  .history__title {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 850px) {
+  .pc-version {
+    display: none;
+  }
+  .history__item {
+    align-items: center;
+  }
+}

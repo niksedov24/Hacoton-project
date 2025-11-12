@@ -56,3 +56,57 @@
   width: 750px !important;
   font-weight: 600;
 }
+
+@media screen and (max-width: 1200px) {
+  .traditions__title {
+    text-align: center;
+  }
+
+  .traditions-wrapper {
+    flex-direction: column;
+    height: auto;
+
+    margin: 0 auto;
+  }
+
+  .traditions__info {
+    order: 2;
+    gap: 30px;
+  }
+  .traditions__img {
+    width: 350px;
+    order: 1;
+  }
+
+  .traditions__info-title {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .traditions__btn {
+    width: 300px !important;
+    margin: 0 auto;
+  }
+
+  .traditions__p {
+    text-align: center;
+    padding: 0 55px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .traditions__info-title {
+    font-size: 18px;
+    width: 500px !important;
+  }
+
+  .traditions__p {
+    padding: 0 120px;
+  }
+
+  .traditions__info {
+    align-items: center !important;
+    width: 500px;
+  }
+}

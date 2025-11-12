@@ -56,3 +56,69 @@
   width: 750px !important;
   font-weight: 600;
 }
+
+@media screen and (max-width: 1200px) {
+  .grove__title {
+    text-align: center;
+  }
+
+  .grove-wrapper {
+    flex-direction: column;
+    height: auto;
+
+    margin: 0 auto;
+  }
+
+  .grove__info {
+    order: 2;
+    gap: 30px;
+  }
+  .grove__img {
+    width: 350px;
+    order: 1;
+  }
+
+  .grove__info-title {
+    text-align: center;
+  }
+}
+
+.grove__p-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 850px) {
+  .grove__btn {
+    width: 300px !important;
+    margin: 0 auto;
+  }
+
+  .grove__p-pc {
+    display: none;
+  }
+
+  .grove__p-mobile {
+    display: block;
+  }
+
+  .grove__p {
+    padding: 0 55px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .grove__info-title {
+    font-size: 18px;
+    width: 500px !important;
+  }
+
+  .grove__p {
+    padding: 0 120px;
+  }
+
+  .grove__info {
+    align-items: center;
+    width: 500px;
+  }
+}

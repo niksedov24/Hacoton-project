@@ -58,3 +58,21 @@
   width: 620px;
   height: 90px;
 }
+
+@media screen and (max-width: 1300px) {
+  .statistics-wrapper {
+    gap: 125px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .statistics__img {
+    display: none;
+  }
+  .statistics__info-title {
+    text-align: center;
+  }
+  .statistics__info {
+    align-items: center;
+  }
+}

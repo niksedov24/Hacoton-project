@@ -12,8 +12,10 @@
   src: url(/fonts/Montserrat-Italic-VariableFont_wght.ttf);
 }
 
+html,
 body {
   font-family: Montserrat;
+  overflow-x: hidden;
 }
 
 .container {
@@ -34,4 +36,9 @@ body {
   background-color: #fff;
   color: #8db124;
   transition: all 0.5s;
+}
+@media screen and (max-width: 1300px) {
+  .container {
+    padding: 0 30px;
+  }
 }

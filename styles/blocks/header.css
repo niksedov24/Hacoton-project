@@ -128,3 +128,22 @@
 .close-btn:hover {
   color: #8db124;
 }
+
+@media screen and (max-width: 1200px) {
+  .header__hero-text {
+    text-align: center;
+  }
+  .header__hero-btn {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .header__hero-text {
+    font-size: 36px;
+  }
+
+  .header__hero {
+    width: auto;
+  }
+}
